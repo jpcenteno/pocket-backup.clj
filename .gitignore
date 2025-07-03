@@ -6,3 +6,4 @@ node_modules/
 .nrepl-port
 result*
 secrets.env
+*.jsonl
