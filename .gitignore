@@ -5,3 +5,4 @@ node_modules/
 .direnv/
 .nrepl-port
 result*
+secrets.env
