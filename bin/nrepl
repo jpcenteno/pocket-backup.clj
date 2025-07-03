@@ -1,0 +1,2 @@
+#! /usr/bin/env bash
+clj -M:nREPL:test -m nrepl.cmdline --interactive
