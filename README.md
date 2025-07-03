@@ -6,24 +6,8 @@ This project lets you back up your Pocket saves to a .jsonl file using the offic
 
 **Hurry up — Pocket shuts down on 2025-07-08!**
 
-```
-[LOG] {:event :requesting, :offset 0}
-[LOG] {:event :response, :offset 0, :count 30}
-[LOG] {:event :wrote, :offset 0, :count 30, :file "backup.jsonl"}
-[LOG] {:event :requesting, :offset 30}
-[LOG] {:event :response, :offset 30, :count 30}
-[LOG] {:event :wrote, :offset 30, :count 30, :file "backup.jsonl"}
+![Logs screenshot](https://raw.githubusercontent.com/jpcenteno/pocket-backup.clj/refs/heads/main/docs/screenshot.png)
 
-...
-
-[LOG] {:event :requesting, :offset 3030}
-[LOG] {:event :response, :offset 3030, :count 19}
-[LOG] {:event :wrote, :offset 3030, :count 19, :file "backup.jsonl"}
-[LOG] {:event :requesting, :offset 3049}
-[LOG] {:event :response, :offset 3049, :count 0}
-[LOG] {:event :wrote, :offset 3049, :count 0, :file "backup.jsonl"}
-[LOG] {:event :done, :offset 3049}
-```
 
 ## Usage
 
